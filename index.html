@@ -234,7 +234,7 @@
             </div>
         </header>
         <main>
-            <video src="video.mp4" class="video" loop autoplay muted></video>
+            <video src="video.mp4" class="video" id="video" loop autoplay muted></video>
             <div class="overlay watch">Testo</div>
             <div class="overlay watch">Ciao</div>
             <div class="overlay watch">Testo2</div>
@@ -312,5 +312,8 @@
             numero_click=numero_click+1;
 
         }
+    </script>
+    <script>
+        document.getElementById("video").play();
     </script>
 </html>
